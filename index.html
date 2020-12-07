@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== SWIPER CSS ===== -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Willy Kostet</title>
+    </head>
+    <body>
+        <!--===== SCROLL TOP =====-->
+        <a href="#" class="scrolltop" id="scroll-top">
+          <i class='bx bxs-chevron-up scrolltop__icon'></i>
+        </a>
+        
+        <!--===== HEADER =====-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+              <a href="#" class="nav__logo">Вилли Коште</a>
+
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="#home" class="nav__link active-link">Главная</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+                  <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+                  <li class="nav__item"><a href="#portfolio" class="nav__link">Портфолио</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+                </ul>
+              </div>
+
+              <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu nav__toggle-icon'></i>
+              </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+              <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                  <span class="home__greeting">Hello, my name is</span>
+                  <h1 class="home__name">Willy Kostet</h1>
+                  <span class="home__profession">Front-End Web Developer</span>
+                  <a download="" href="" class="button button-light home__button">Загрузить резюме</a>
+                </div>
+                <div class="home__social">
+                  <a href="https://github.com/willykostet" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                  <a href="https://twitter.com/willykostet" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                  <a href="https://linkedin.com/in/willykostet" class="home__social-icon"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+
+                <div class="home__img">
+                  <img src="images/home.jpg" alt="">
+                </div>
+              </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section bd-container" id="about">
+              <span class="section-subtitle">Коротко, но по делу</span>
+              <h2 class="section-title">Обо мне</h2>
+
+              <div class="about__container bd-grid">
+                <div class="about__data bd-grid">
+                  <p class="about__description"><span>Привет, я<br></span>Вилли, начинающий front-end разработчик с хорошим знанием верстки и основ JS. Я ищу компанию, где смогу начать свою профессиональную карьеру</p>
+                  <div>
+                    <span class="about__number">1.5</span>
+                    <span class="about__achievement">Года обучения и практики</span>
+                  </div>
+                  <div>
+                    <span class="about__number">5+</span>
+                    <span class="about__achievement">Завершенных проектов</span>
+                  </div>
+                  <div>
+                    <span class="about__number">B2+</span>
+                    <span class="about__achievement">Уровень английского языка</span>
+                  </div>
+                </div>
+                <img src="images/about.jpg" alt="" class="about__img">
+              </div>
+            </section>
+
+            <!--===== QUALIFICATION =====-->
+            <section class="qualification section bd-container">
+              <span class="section-subtitle">Опыт и образование</span>
+              <h2 class="section-title">Квалификация</h2>
+
+              <div class="qualification__container bd-grid">
+                <div class="qualification__content">
+                  <h2 class="qualification__title">
+                    <i class='bx bx-briefcase-alt qualification__title-icon'></i>
+                    Опыт работы
+                  </h2>
+
+                  <div class="bd-grid">
+                    <div class="qualification__data">
+                      <h3 class="qualification__area">Личные проекты</h3>
+
+                      <div class="qualification__box">
+                        <span class="qualification__work">
+                          <i class='bx bx-briefcase-alt qualification__icon'></i>
+                          Персональный компьютер - Remote
+                        </span>
+                        <span class="qualification__work">
+                          <i class='bx bx-calendar-alt qualification__icon'></i>
+                          Май 2020 - Дек 2020
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="qualification__data">
+                      <h3 class="qualification__area">English teacher</h3>
+
+                      <div class="qualification__box">
+                        <span class="qualification__work">
+                          <i class='bx bx-briefcase-alt qualification__icon'></i>
+                          self-emloyed - Moscow
+                        </span>
+                        <span class="qualification__work">
+                          <i class='bx bx-calendar-alt qualification__icon'></i>
+                          Сен 2017 - Дек 2020
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="qualification__data">
+                      <h3 class="qualification__area">Разработчик интернет-магазина</h3>
+
+                      <div class="qualification__box">
+                        <span class="qualification__work">
+                          <i class='bx bx-briefcase-alt qualification__icon'></i>
+                          DE4TH - Krasnoyarsk
+                        </span>
+                        <span class="qualification__work">
+                          <i class='bx bx-calendar-alt qualification__icon'></i>
+                          In prod.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="qualification__content">
+                  <h2 class="qualification__title">
+                    <i class='bx bx-book-bookmark qualification__title-icon'></i>
+                    Образование
+                  </h2>
+
+                  <div class="bd-grid">
+                    <div class="qualification__data">
+                      <h3 class="qualification__area">HTML & CSS. Professional Website Coding</h3>
+
+                      <div class="qualification__box">
+                        <span class="qualification__work">
+                          <i class='bx bx-book-alt qualification__icon'></i>
+                          Saint-Petersburg - HTML-Academy
+                        </span>
+                        <span class="qualification__work">
+                          <i class='bx bx-calendar-alt qualification__icon'></i>
+                          Май 2020 - Июль 2020
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="qualification__data">
+                      <h3 class="qualification__area">HTML & CSS. 
+                        Adaptive Website Coding
+                        and Automation</h3>
+
+                      <div class="qualification__box">
+                        <span class="qualification__work">
+                          <i class='bx bx-book-alt qualification__icon'></i>
+                          Saint-Petersburg - HTML-Academy
+                        </span>
+                        <span class="qualification__work">
+                          <i class='bx bx-calendar-alt qualification__icon'></i>
+                          Июль 2020 - Сент 2020
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--===== SERVICES =====-->
+            <section class="services section bd-container" id="services">
+              <span class="section-subtitle">Что я могу предложить</span>
+              <h2 class="section-title">Услуги</h2>
+
+              <div class="services__container bd-grid">
+                <div class="services__data">
+                  <i class='bx bx-comment-check services__icon' ></i>
+                  <h3 class="services__title">Английский язык</h3>
+                  <p class="services__description">Преподаватель с большим языковым опытом</p>
+                  <a href="https://en.wikipedia.org/wiki/English_language" class="button">Подробнее</a>
+                </div>
+
+                <div class="services__data">
+                  <i class='bx bx-laptop services__icon' ></i>
+                  <h3 class="services__title">Верстка сайтов</h3>
+                  <p class="services__description">Адаптивно, кроссбраузерно, семантично</p>
+                  <a href="https://ru.wikipedia.org/wiki/%D0%92%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0_%D0%B2%D0%B5%D0%B1-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86" class="button">Подробнее</a>
+                </div>
+
+                <div class="services__data">
+                  <i class='bx bxl-dev-to services__icon' ></i>
+                  <h3 class="services__title">Разработка</h3>
+                  <p class="services__description">JavaScript, ES6, Git, опыт создания приложений</p>
+                  <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" class="button">Подробнее</a>
+                </div>
+              </div>
+            </section>
+            
+            <!--===== PROJECT IN MIND =====-->
+            <section class="project section bd-container">
+              <div class="project__container bd-grid">
+                <div class="project__data">
+                  <i class='bx bx-chat project__icon'></i>
+
+                  <div>
+                    <h2 class="project__title">Есть идея?</h2>
+                    <p class="project__description">Вы  можете заказать у меня следующие проекты.</p>
+                  </div>
+
+                  <div>
+                    <a href="https://twitter.com/willykostet" class="button button-white">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section bd-container" id="portfolio">
+              <span class="section-subtitle">Мои последние работы</span>
+              <h2 class="section-title">Портфолио</h2>
+
+              <div class="portfolio__nav">
+                <span class="portfolio__item active-portfolio" data-filter="all">Все</span>
+                <span class="portfolio__item" data-filter=".web">Сайты</span>
+                <span class="portfolio__item" data-filter=".ux">Игры</span>
+                <span class="portfolio__item" data-filter=".app">Приложения</span>
+              </div>
+
+              <div class="portfolio__container bd-grid">
+                <div class="portfolio__content mix web">
+                  <a href="https://github.com/willykostet/CatEnergy"><img src="images/work4.jpg" alt="#" class="portfolio__img"></a>
+                  <div class="portfolio__data">
+                    <span class="portfolio__subtitle">скачайте на github, затем запустите сборку командой <code>npm run start</code></span>
+                    <a href="https://github.com/willykostet/CatEnergy"><h2 class="portfolio__title">Вёрстка онлайн-шопа</h2></a>
+                    <a href="https://github.com/willykostet/CatEnergy" class="button button-link">Посмотреть</a>
+                  </div>
+                </div>
+
+                <div class="portfolio__content mix web">
+                  <a href="https://willykostet.github.io/myFavouriteMovies/"><img src="images/work.jpg" alt="#" class="portfolio__img"></a>
+                  <div class="portfolio__data">
+                    <span class="portfolio__subtitle">Верстка онлайн-кинотеатра, адаптив, слайдеры, анимации</span>
+                    <a href="https://willykostet.github.io/myFavouriteMovies/"><h2 class="portfolio__title">Мои любимые фильмы</h2></a>
+                    <a href="https://willykostet.github.io/myFavouriteMovies/" class="button button-link">Посмотреть</a>
+                  </div>
+                </div>
+
+                <div class="portfolio__content mix ux">
+                  <a href="https://willykostet.github.io/krotik/"><img src="images/work2.jpg" alt="#" class="portfolio__img"></a>
+                  <div class="portfolio__data">
+                    <span class="portfolio__subtitle">Game-Dev, достойный ребилдинг культовой аркады семидесятых</span>
+                    <a href="https://willykostet.github.io/krotik/"><h2 class="portfolio__title">Игра "Нашествие крота"</h2></a>
+                    <a href="https://willykostet.github.io/krotik/" class="button button-link">Играть</a>
+                  </div>
+                </div>
+
+                <div class="portfolio__content mix app">
+                  <a href="https://willykostet.github.io/weatherapp/"><img src="images/work1.jpg" alt="#" class="portfolio__img"></a>
+                  <div class="portfolio__data">
+                    <span class="portfolio__subtitle">Разработка приложения</span>
+                    <a href="https://willykostet.github.io/weatherapp/"><h2 class="portfolio__title">Прогноз погоды</h2></a>
+                    <a href="https://willykostet.github.io/weatherapp/" class="button button-link">Узнать прогноз</a>
+                  </div>
+                </div>
+
+                <div class="portfolio__content mix app">
+                  <a href="https://willykostet.github.io/sweddish/"><img src="images/work3.jpg" alt="#" class="portfolio__img"></a>
+                  <div class="portfolio__data">
+                    <span class="portfolio__subtitle">Верстка приложения</span>
+                    <a href="https://willykostet.github.io/sweddish/"><h2 class="portfolio__title">Форма входа</h2></a>
+                    <a href="https://willykostet.github.io/sweddish/" class="button button-link">Посмотреть</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--===== TESTIMONIAL =====-->
+            <section class="testimonial section bd-container">
+              <span class="section-subtitle">Люди обо мне</span>
+              <h2 class="section-title">Отзывы</h2>
+
+              <div class="testimonial__container swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="testimonial__content swiper-slide">
+                    <img src="images/testimonial.jpg" alt="" class="testimonial__img">
+                    <h3 class="testimonial__title">Михаил</h3>
+                    <span class="testimonial__client">Заказчик</span>
+                    <p class="testimonial__description">Я переехал в Украину и очень загрустил. Дота надоела. Вилли сделал для меня игру про крота. Теперь мне есть чем заняться. Cтавлю разработчику 10 из 10</p>
+                  </div>
+
+                  <div class="testimonial__content swiper-slide">
+                    <img src="images/testimonial2.jpg" alt="" class="testimonial__img">
+                    <h3 class="testimonial__title">米沙</h3>
+                    <span class="testimonial__client">Client</span>
+                    <p class="testimonial__description">У меня инстаграм-магазин поминальных рэп-товаров. Вилли разрабатывает для меня сайт. Разработчик - настоящий профессионал.</p>
+                  </div>
+
+                  <div class="testimonial__content swiper-slide">
+                    <img src="images/testimonial3.jpg" alt="" class="testimonial__img">
+                    <h3 class="testimonial__title">Ярослав</h3>
+                    <span class="testimonial__client">Житель Татуина</span>
+                    <p class="testimonial__description">Сайт с фильмами - просто супер. Я тоже люблю звездные войны и бегущего по лезвию. Открыл на калькуляторе - всё работает. Вилли очень хорош в своем деле.</p>
+                  </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </section>
+
+            <!--===== CONTACTME =====-->
+            <section class="contact section bd-container" id="contact">
+              <span class="section-subtitle">Хотите заказать проект?</span>
+              <h2 class="section-title">Свяжитесь со мной</h2>
+
+              <div class="contact__container bd-grid">
+                <div class="contact__content bd-grid">
+                  <div class="contact__box">
+                    <i class="bx bx-home contact__icon"></i>
+                    <h3 class="contact__title">Расположение</h3>
+                    <span class="contact__description">ЦАО - Москва</span>
+                  </div>
+
+                  <div class="contact__box">
+                    <i class="bx bx-phone contact__icon"></i>
+                    <h3 class="contact__title">Телефон</h3>
+                    <a href="tel:+79254463871"><span class="contact__description">+7 925 446 38 71</span></a>
+                  </div>
+
+                  <div class="contact__box">
+                    <i class="bx bx-envelope contact__icon"></i>
+                    <h3 class="contact__title">Gmail</h3>
+                    <a href="mailto: willykostet@gmail.com"><span class="contact__description">willykostet@gmail.com</span></a>
+                  </div>
+
+                  <div class="contact__box">
+                    <i class="bx bx-chat contact__icon"></i>
+                    <h3 class="contact__title">Мессенджеры</h3>
+                    <div>
+                    <a href="https://wa.me/79254463871" class="contact__social"><i class="bx bxl-whatsapp-square"></i></a>
+                    <a href="https://t.me/wttrr" class="contact__social"><i class="bx bxl-telegram"></i></a>
+                    <a href="#" class="contact__social"><i class="bx bxl-messenger"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <form action="" class="contact__form">
+                  <div class="contact__inputs">
+                    <input type="text" placeholder="Имя" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                  </div>
+                  <div class="contact__inputs">
+                    <input type="text" placeholder="Желаемый проект" class="contact__input">
+                    <input type="tel" placeholder="Номер телефона" class="contact__input">
+                  </div>
+                  <textarea name="" id="" cols="0" rows="7" placeholder="Сообщение" class="contact__input"></textarea>
+
+                  <input type="submit" value="Отправить" class="button contact__button">
+                </form>
+              </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__container bd-container">
+              <h1 class="footer__title">Willy Kostet</h1>
+              <p class="footer__description">I am Willy Kostet and this is my personal website. Contact me here.</p>
+
+              <div class="footer__social">
+                <a href="https://linkedin.com/in/willykostet" class="footer__link"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/willykostet" class="footer__link"><i class="bx bxl-github"></i></a>
+                <a href="https://twitter.com/willykostet" class="footer__link"><i class="bx bxl-twitter"></i></a>
+              </div>
+              <p class="footer__copy">&#169; 2020 KostetDev. All rights reverved</p>
+            </div>
+        </footer>
+        
+        <!-- ===== MIXITUP FILTER ===== -->
+        <script src="js/mixitup.min.js"></script>
+        
+        <!-- ===== SWIPER JS ===== -->
+        <script src="js/swiper-bundle.min.js"></script>
+        
+        <!-- ===== GSAP ===== -->
+        <script src="js/gsap.min.js"></script>
+        
+        <!--===== MAIN JS =====-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
